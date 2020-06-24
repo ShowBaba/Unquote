@@ -206,11 +206,13 @@ public class MainActivity<displaySize> extends AppCompatActivity {
         Question question2 = new Question(R.drawable.img_quote_2, "Easy advice to read,\n" +
                 "difficult advice to\n" +
                 "follow — who actually", "Martin Luther King Jr.", "Mother Teresa", "Fred Rogers", "Oprah Winfrey", 1);
-        Question question3 = new Question(R.drawable.img_quote_3, "Insanely inspiring,\n" +
+
+        //question3 was removed to avoid controvasies found here: https://twitter.com/GoodPassport/status/1274310169418137600?s=20
+      /*  Question question3 = new Question(R.drawable.img_quote_3, "Insanely inspiring,\n" +
                 "insanely incorrect\n" +
                 "(maybe). Who is the\n" +
                 "true source of this\n" +
-                "inspiration?", "Nelson Mandela", "Harriet Tubman", "Mahatma Gandhi", "Nicholas Klein", 3);
+                "inspiration?", "Nelson Mandela", "Harriet Tubman", "Mahatma Gandhi", "Nicholas Klein", 3);*/
         Question question4 = new Question(R.drawable.img_quote_4, "A peace worth striving\n" +
                 "for — who actually\n" +
                 "reminded us of this?", "Malala Yousafzai", "Martin Luther King Jr.", "Liu Xiaobo", "Dalai Lama", 1);
@@ -257,7 +259,7 @@ public class MainActivity<displaySize> extends AppCompatActivity {
         questions.add(question0);
         questions.add(question1);
         questions.add(question2);
-        questions.add(question3);
+//        questions.add(question3);
         questions.add(question4);
         questions.add(question5);
         questions.add(question6);
