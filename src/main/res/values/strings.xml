@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Unquote</string>
+    <string name="famous_advice_from_an_iconic_mentor_which_fictional_character_really_imparted_this_bit_of_sage_wisdom">Famous advice from an iconic mentor. Which fictional character really imparted this bit of sage wisdom?</string>
+    <string name="questions_remaining">questions remaining</string>
+</resources>
